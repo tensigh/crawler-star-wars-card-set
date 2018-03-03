@@ -10,4 +10,4 @@ import scrapy
 class CardImage(scrapy.Item):  
     page_title = scrapy.Field()
     image_urls = scrapy.Field()
-    images = scrapy.Field() # Not used in original code
+    images = scrapy.Field() # Not used in original code but keeping it
